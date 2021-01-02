@@ -1,4 +1,4 @@
-# 나누어 떨어지는 숫자 배열
+# 두 개 뽑아서 더하기
 ### 📍 문제 설명
 정수 배열 numbers가 주어집니다. numbers에서 서로 다른 인덱스에 있는 두 개의 수를 뽑아 더해서 만들 수 있는 모든 수를 배열에 오름차순으로 담아 return 하도록 solution 함수를 완성해주세요.
 
@@ -31,6 +31,7 @@ strings|n|return
 ---|---|---
 ["sun", "bed", "car"]|1|["car", "bed", "sun"]
 ["abce", "abcd", "cdx"]|2|["abcd", "abce", "cdx"]
+
 입출력 예 1<br/>
 sun, bed, car의 1번째 인덱스 값은 각각 u, e, a 입니다. 이를 기준으로 strings를 정렬하면 [car, bed, sun] 입니다.
 
@@ -38,4 +39,4 @@ sun, bed, car의 1번째 인덱스 값은 각각 u, e, a 입니다. 이를 기�
 abce와 abcd, cdx의 2번째 인덱스 값은 c, c, x입니다. 따라서 정렬 후에는 cdx가 가장 뒤에 위치합니다. abce와 abcd는 사전순으로 정렬하면 abcd가 우선하므로, 답은 [abcd, abce, cdx] 입니다.
 
 ### 📍 참고 문제
-[201231 문자열 내림차순으로 배치하기](링크추가)
+[201231 문자열 내림차순으로 배치하기](https://github.com/kji990607/codingTestPractice/blob/master/level1/201231/%EB%AC%B8%EC%9E%90%EC%97%B4%EB%82%B4%EB%A6%BC%EC%B0%A8%EC%88%9C%EC%9C%BC%EB%A1%9C%EB%B0%B0%EC%B9%98%ED%95%98%EA%B8%B0.cpp)
