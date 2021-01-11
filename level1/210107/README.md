@@ -128,6 +128,8 @@ hash_multimap|자료를 정렬하지 않은 multimap
 
 [map 예시 코드]
 ```
+#include <map>
+
 map<char,int> m;
 map<char,int>::iterator it;
  
